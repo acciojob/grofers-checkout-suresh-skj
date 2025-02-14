@@ -24,9 +24,9 @@ const getSum = () => {
   newRow.id = "totalRow"; 
 
   const totalCell = document.createElement("td");
-  totalCell.setAttribute("colspan", "2"); // Make it span across both columns
-  totalCell.style.fontWeight = "bold";
-  totalCell.style.textAlign = "center";
+  totalCell.setAttribute("colspan", "2"); 
+  // totalCell.style.fontWeight = "bold";
+  // totalCell.style.textAlign = "center";
   totalCell.textContent = `Total Price: Rs ${total}`;
 
 
